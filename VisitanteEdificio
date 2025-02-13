@@ -1,6 +1,6 @@
 public class VisitanteEdificio {
     public static void main(String[] args) {
-        // Declaración y asignación de variables de tipos primitivos
+       
         byte edad = 25;
         short numeroDepartamento = 102;
         int identificacion = 12345678;
@@ -10,7 +10,6 @@ public class VisitanteEdificio {
         char genero = 'M';
         boolean tieneAutorizacion = true;
         
-        // Impresión de la información del visitante
         System.out.println("Información del Visitante:");
         System.out.println("Edad: " + edad);
         System.out.println("Número de Departamento: " + numeroDepartamento);
