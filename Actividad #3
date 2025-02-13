@@ -1,0 +1,24 @@
+public class VisitanteEdificio {
+    public static void main(String[] args) {
+        // Declaración y asignación de variables de tipos primitivos
+        byte edad = 25;
+        short numeroDepartamento = 102;
+        int identificacion = 12345678;
+        long telefono = 9876543210L;
+        float temperaturaCorporal = 36.5f;
+        double altura = 1.75;
+        char genero = 'M';
+        boolean tieneAutorizacion = true;
+        
+        // Impresión de la información del visitante
+        System.out.println("Información del Visitante:");
+        System.out.println("Edad: " + edad);
+        System.out.println("Número de Departamento: " + numeroDepartamento);
+        System.out.println("Identificación: " + identificacion);
+        System.out.println("Teléfono: " + telefono);
+        System.out.println("Temperatura Corporal: " + temperaturaCorporal + "°C");
+        System.out.println("Altura: " + altura + "m");
+        System.out.println("Género: " + genero);
+        System.out.println("Tiene Autorización: " + tieneAutorizacion);
+    }
+}
